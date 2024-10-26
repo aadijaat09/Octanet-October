@@ -1,0 +1,106 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.hero {
+    background-image: url('your-background-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta-button {
+    background: #FFD700; /* Gold color */
+    color: black;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.benefits,
+.testimonials,
+.features,
+.cta {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.benefits-container,
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.benefit-item,
+.feature {
+    flex: 1;
+    margin: 10px;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f0f0f0;
+    border-left: 4px solid #FFD700;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links,
+.social {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-links a,
+.social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
